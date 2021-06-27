@@ -1,12 +1,15 @@
 import 'reflect-metadata'
 import express, { Request, Response, NextFunction } from 'express'
 import "express-async-errors"
+import cors from "cors"
 
 import { router } from "./routes"
 
 import './database' // já importa o arquivo index.ts dentro
 
 const app = express()
+
+app.use(cors())
 
 app.use(express.json())
 
