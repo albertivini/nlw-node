@@ -17,7 +17,7 @@ Projeto da RocketSeat 🚀 de uma API de elogios em Node.Js e Typescript
 Para executar a aplicação é necessário ter o Node e o Yarn instalados, além de executar o seguinte código na linha de comando:
 
 ```
-yarn add
+yarn
 ```
 
 E em seguida:
